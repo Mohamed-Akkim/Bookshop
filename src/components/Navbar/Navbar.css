@@ -1,0 +1,35 @@
+/* styles.css */
+nav {
+  background-color: rgb(24, 49, 83);
+  padding: 15px 0;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 0 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #ecf0f1;
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #3498db;
+}
+nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+

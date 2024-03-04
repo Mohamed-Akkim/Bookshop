@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.book{
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+    flex-wrap: wrap;
+    
+
+}
+.books{
+    width: 150px;
+    position: relative;
+    display: inline-block;
+    margin-top: 50px;
+    
+}
+
+.books img{
+    height: 200px;
+    width: 150px;
+    display: block;
+}
+.books button {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+.book a{
+    color: black ;
+    
+}
+.books{
+    font-size: smaller;
+}
+nav{
+    z-index: 999;
+}
+
+.books span{
+    font-size: medium;
+}
+.books button{
+    width: 30px;
+    height: 30px;
+}
+.book {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin: 0 5px; 
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-bottom: 50px;
+  }
+  
+ 
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .pagination button.active {
+    background-color: rgb(24, 49, 83); 
+    color: #fff; 
+    font-weight: bold; 
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: rgb(24, 49, 83);
+    color: #fff;
+    border: 1px solid rgb(24, 49, 83);
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination button:hover {
+    background-color: rgb(24, 49, 83);
+  }
+  
+   .pagination button.active {
+    background-color: rgb(24, 49, 83);
+    border: 1px solid #0056b3;
+  } 
+
+
+/* djkhfbksw */
+
+/* Home.css */
+
+/* Clearfix for better layout */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Book container */
+  .book {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .books {
+    width: 250px;
+    
+    padding: 10px;
+    background-color:#D4D4D4;
+    
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  .new{
+    margin: 8px;
+  }
+
+  .books:hover {
+    transform: scale(1.03);
+  }
+  
+  .container {
+    max-width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  
+  
+  /* Book details */
+  .dd {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Cart buttons */
+  .books button {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 8px 12px;
+    background-color: rgb(24, 49, 83);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+.books button{
+  font-size: xx-large;
+  width: 50px;
+  height: 50px;
+}
+  
+  .books button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Pagination */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination button:hover {
+    background-color: #0056b3;
+  }
+  
+  .pagination button.active {
+    background-color: #0056b3;
+    border: 1px solid #0056b3;
+  }
+  
+  .input{
+    background-color: #fff;
+    margin-top: 100px;
+    width: 30%;
+    border-radius: 10px;
+  }
+
+
+
+
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .book{
+        padding: 20px;
+    }
+    .books {
+        width: 45%;
+        
+    }
+    .book{
+        display: flex;
+        gap: 0;
+    }
+    .books button{
+      font-size: x-large;
+      width: 40px;
+      height: 40px;
+    }
+
+    .dd{
+        margin-top: 10px;
+    }
+    .container{
+        height: auto;
+    }
+    .books img{
+        height: 90%;
+    }
+    .books span{
+        font-size: small;
+    }
+
+    .pagination {
+      flex-direction: row;
+      align-items: center;
+      
+    }
+  
+    .pagination button {
+      margin: 5px 5px;
+      
+      
+    }
+    .input{
+      width: 50%;
+    }
+  }
+  
